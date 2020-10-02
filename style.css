@@ -1,7 +1,17 @@
 body {
     background-color: crimson;
-    text-align: center;
     }
+
 h1 {
    font-size: 30px;
+   text-align: center;
 }
+
+li {
+    list-style-position: inside;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    }
