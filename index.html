@@ -4,28 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <script src=./app.js></script>
     <title>Mad Libs</title>
 </head>
 <body>
-    <h1>Mad Libs</h1>
     
+    <h1>Mad Libs</h1>
+<form onSubmit="return false" action="">
     <ul>
-        <li>Noun: <input type="text" placeholder="noun" id=noun></li>
-        <li>Plural Noun: <input type="text" placeholder="plural noun" id=pluralnoun></li>
-        <li>Verb (Present Tense): <input type="text" placeholder="verb (present tense)" id=verbpresenttense></li>
-        <li>Verb (Present Tense): <input type="text" placeholder="verb (present tense)" id=verbpresenttense2></li>
-        <li>Part of Body (Plural): <input type="text" placeholder="part of body (plural)" id="partofbody"></li>
-        <li>Adjective: <input type="text" placeholder="adjective" id="adjective"></li>
-        <li>Plural Noun: <input type="text" placeholder="plural noun" id="pluralnoun2"></li>
-        <li>Adjective: <input type="text" placeholder="adjective" id="adjective2"></li>
+        <li><input type="text" placeholder="noun" id="textOne"></li>
+        <li><input type="text" placeholder="plural noun" id="textTwo"></li>
+        <li><input type="text" placeholder="verb (present tense)" id="textThree"></li>
+        <li><input type="text" placeholder="verb (present tense)" id="textFour"></li>
+        <li><input type="text" placeholder="part of body (plural)" id="textFive"></li>
+        <li><input type="text" placeholder="adjective" id="textSix"></li>
+        <li><input type="text" placeholder="plural noun" id="textSeven"></li>
+        <li><input type="text" placeholder="adjective" id="textEight"></li>
+        <li><button type="button" id="button" onclick="createParagraph()">Let the fun begin!</button></li>
     </ul>
-    <p>Today, every student has a computer small enough to fit into
-        his noun.  He can solve any math problem by simply pushing 
-        the computer's little plural noun. Computers can add, multiply,
-        divide, and verb present tense.  They can also verb present tense
-        better than a human.  Some computers are part of body.  Others
-        have a/an adjective screen that shows all kinds of plural noun
-        and adjective figures.
-    </p>
+</form>
+<div id="answer"></div>
+    
+
 </body>
 </html>

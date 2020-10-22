@@ -7,11 +7,17 @@ h1 {
    text-align: center;
 }
 
-li {
-    list-style-position: inside;
-}
 
 ul {
     display: flex;
     flex-direction: column;
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 30px;
     }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
